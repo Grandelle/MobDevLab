@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="registration">Регистрация</string>
+    <string name="login">Вход</string>
+    <string name="enter_email">Введите email</string>
+    <string name="enter_password">Введите пароль</string>
+    <string name="repeat_password">Повторите пароль</string>
+    <string name="register">ЗАРЕГИСТРИРОВАТЬСЯ</string>
+    <string name="login_automatic">Входить автоматически</string>
+    <string name="login_button">ВОЙТИ</string>
+    <string name="by_number">По номеру</string>
+    <string name="by_email">По email</string>
+
+</resources>
