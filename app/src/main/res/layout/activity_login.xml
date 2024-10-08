@@ -40,7 +40,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintWidth_percent="0.65"
-        android:hint="@string/enter_email"/>
+        android:hint="@string/enter_email_or_number"/>
 
     <EditText
         android:id="@+id/password_input"
