@@ -10,4 +10,6 @@
     <color name="teal_700">#00796B</color>
     <color name="black">#000000</color>
     <color name="purple_200">#BB86FC</color>
+    <color name="selectedColor">#119911</color>
+    <color name="unselectedColor">#4A4A4A</color>
 </resources>

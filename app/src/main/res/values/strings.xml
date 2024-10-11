@@ -12,5 +12,6 @@
     <string name="login_button">ВОЙТИ</string>
     <string name="by_number">По номеру</string>
     <string name="by_email">По email</string>
+    <string name="enter_phone">Введите номер телефона</string>
 
 </resources>
