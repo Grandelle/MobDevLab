@@ -13,5 +13,13 @@
     <string name="by_number">По номеру</string>
     <string name="by_email">По email</string>
     <string name="enter_phone">Введите номер телефона</string>
+    <string name="invalid_email">Некорректный email</string>
+    <string name="invalid_phone">Некорректный номер телефона</string>
+    <string name="short_password">Пароль слишком короткий</string>
+    <string name="passwords_do_not_match">Пароли не совпадают</string>
+    <string name="registration_success">Регистрация прошла успешно</string>
+    <string name="error_invalid_credentials">Неверный email/телефон или пароль</string>
+
+
 
 </resources>

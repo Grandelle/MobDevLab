@@ -40,7 +40,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintWidth_percent="0.65"
-        android:hint="@string/enter_email_or_number"/>
+        android:hint="@string/enter_email_or_number"
+        android:ellipsize="start"
+        android:singleLine="true"
+        android:scrollHorizontally="true" />
 
     <EditText
         android:id="@+id/password_input"
@@ -52,7 +55,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintWidth_percent="0.65"
-        android:hint="@string/enter_password"/>
+        android:hint="@string/enter_password"
+        android:ellipsize="start"
+        android:singleLine="true"
+        android:scrollHorizontally="true" />
+
 
     <CheckBox
         android:id="@+id/auto_login_checkbox"

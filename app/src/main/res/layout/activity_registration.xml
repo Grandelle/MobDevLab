@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    tools:context=".MainActivity"
+    tools:context=".RegistrationActivity"
     android:theme="@style/AppTheme">
 
     <TextView
@@ -70,7 +70,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintWidth_percent="0.65"
-        android:hint="@string/enter_email"/>
+        android:hint="@string/enter_email"
+        android:ellipsize="start"
+        android:singleLine="true"
+        android:scrollHorizontally="true" />
 
     <EditText
         android:id="@+id/password_input"
@@ -82,7 +85,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintWidth_percent="0.65"
-        android:hint="@string/enter_password"/>
+        android:hint="@string/enter_password"
+        android:ellipsize="start"
+        android:singleLine="true"
+        android:scrollHorizontally="true" />
 
     <EditText
         android:id="@+id/repeat_password_input"
@@ -94,7 +100,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintWidth_percent="0.65"
-        android:hint="@string/repeat_password"/>
+        android:hint="@string/repeat_password"
+        android:ellipsize="start"
+        android:singleLine="true"
+        android:scrollHorizontally="true" />
+
 
     <Button
         android:id="@+id/register_button"
